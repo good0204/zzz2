@@ -1,0 +1,74 @@
+# MoPub Proguard Config
+# NOTE: You should also include the Android Proguard config found with the build tools:
+# $ANDROID_HOME/tools/proguard/proguard-android.txt
+
+# Keep public classes and methods.
+-keepclassmembers class com.mopub.** { public *; }
+-keep public class com.mopub.**
+
+# Explicitly keep any custom event classes in any package.
+-keep class * extends com.mopub.mobileads.CustomEventBanner {}
+-keep class * extends com.mopub.mobileads.CustomEventInterstitial {}
+-keep class * extends com.mopub.nativeads.CustomEventNative {}
+-keep class * extends com.mopub.mobileads.CustomEventRewardedVideo {}
+
+# Support for Android Advertiser ID.
+-keep class com.google.android.gms.common.GooglePlayServicesUtil {*;}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {*;}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {*;}
+
+# For communication with AdColony's WebView
+-keepclassmembers class * {
+    @android.webkit.JavascriptInterface <methods>;
+}
+
+# Keep ADCNative class members unobfuscated
+-keepclassmembers class com.adcolony.sdk.ADCNative** {
+    *;
+}
+
+-keep class com.google.ads.** { *; }
+-keepattributes *Annotation*
+
+#GameService Rules
+-keep class com.google.android.gms.** { *; }
+-keep class com.google.games.bridge.** { *; }
+
+#Don't obfuscate. We only need dead code striping.
+-dontobfuscate
+
+#For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class com.google.unity.** { *; }
+
+# Facebook
+-keep class com.facebook.unity.** { *; }
+-keep class com.facebook.internal.** { *; }
+-keep class com.facebook.ads.** { *; }
+
+# Firebase
+-keep class com.google.firebase.** { *; }
+
+# UnityIAP
+-keep class com.unity.purchasing.** { *; }
+-dontwarn com.unity.purchasing.**
+-keep class com.android.vending.billing.**{*;}
+
+# adjust
+-keep public class com.adjust.sdk.** { *; }
+-keep class com.google.android.gms.common.ConnectionResult {
+    int SUCCESS;
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient {
+    com.google.android.gms.ads.identifier.AdvertisingIdClient$Info getAdvertisingIdInfo(android.content.Context);
+}
+-keep class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info {
+    java.lang.String getId();
+    boolean isLimitAdTrackingEnabled();
+}
+-keep public class com.android.installreferrer.** { *; }
+

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id" xmlns:tools="http://schemas.android.com/tools">
+  <string name="firebase_database_url" translatable="false">https://bullet-master-3d-d852e.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">333416829995</string>
+  <string name="google_storage_bucket" translatable="false">bullet-master-3d-d852e.appspot.com</string>
+  <string name="project_id" translatable="false">bullet-master-3d-d852e</string>
+  <string name="google_api_key" translatable="false">AIzaSyDqjpQjSw5MMtA0WC2SivvNgeprIxXIQsU</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDqjpQjSw5MMtA0WC2SivvNgeprIxXIQsU</string>
+  <string name="google_app_id" translatable="false">1:333416829995:android:9e2cde39cc207ca86c866e</string>
+  <string name="default_web_client_id" translatable="false">333416829995-61k5tvg4hb6q1vnej9g7rfd9e7ce770c.apps.googleusercontent.com</string>
+</resources>

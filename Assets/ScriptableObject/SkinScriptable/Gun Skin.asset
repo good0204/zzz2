@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 408e2214eed1f4d50a18f4caf459a43f, type: 3}
+  m_Name: Gun Skin
+  m_EditorClassIdentifier: 
+  _gun:
+  - _name: Gun1
+    _id: 101
+    _Thumbnail: {fileID: 21300000, guid: c33735ea6b95b415f81062bc2872771f, type: 3}
+    texture: {fileID: 2800000, guid: 8155e941a7e6747fa911c4c80ea8d964, type: 3}
+  - _name: Gun2
+    _id: 102
+    _Thumbnail: {fileID: 21300000, guid: 6165c141bcfff4f89aaf0bc81edd095f, type: 3}
+    texture: {fileID: 2800000, guid: bd21216abb966491c9f9c69415aba1b5, type: 3}
+  - _name: Gun3
+    _id: 103
+    _Thumbnail: {fileID: 21300000, guid: 78e139ffdfe2447f69ff9df6e9f08de3, type: 3}
+    texture: {fileID: 2800000, guid: 1dc735a76e11b4db397e5a6422a8d1be, type: 3}
+  - _name: Gun4
+    _id: 104
+    _Thumbnail: {fileID: 21300000, guid: 9eed6b08f13464725ba6ba77262887ee, type: 3}
+    texture: {fileID: 2800000, guid: 8823a1c3a3d37449c971fb3e9dde0354, type: 3}
+  - _name: Gun5
+    _id: 105
+    _Thumbnail: {fileID: 21300000, guid: f56a63aa57c2c40edb6cd04f1e590d2e, type: 3}
+    texture: {fileID: 2800000, guid: 3b8e9d494f6574ea493cc27be219f43c, type: 3}
+  - _name: Gun6
+    _id: 106
+    _Thumbnail: {fileID: 21300000, guid: 3547e68927bd349fe81696e2ab7a0762, type: 3}
+    texture: {fileID: 2800000, guid: 8b67da6ec2c054cff93c9338ae029634, type: 3}
+  - _name: Gun7
+    _id: 107
+    _Thumbnail: {fileID: 21300000, guid: f303d2560f44f4d8b9b973b8ab9b0963, type: 3}
+    texture: {fileID: 2800000, guid: eea85b10bf56643808c2bce89427ad08, type: 3}
+  - _name: Gun8
+    _id: 108
+    _Thumbnail: {fileID: 21300000, guid: 089fd705776264f9a9eefd8d1267042b, type: 3}
+    texture: {fileID: 2800000, guid: 3de976fd21769401ba5ff135fd8fa7c2, type: 3}

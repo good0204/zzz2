@@ -1,0 +1,61 @@
+
+box.png
+size: 5304,3517
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body3
+  rotate: false
+  xy: 2, 3061
+  size: 1040, 454
+  orig: 1042, 456
+  offset: 1, 1
+  index: -1
+fx1
+  rotate: true
+  xy: 4138, 1895
+  size: 1620, 1164
+  orig: 1620, 1164
+  offset: 0, 0
+  index: -1
+fx3
+  rotate: false
+  xy: 2, 2
+  size: 3209, 2870
+  orig: 3209, 2870
+  offset: 0, 0
+  index: -1
+open2
+  rotate: false
+  xy: 1044, 2965
+  size: 1018, 550
+  orig: 1020, 552
+  offset: 1, 1
+  index: -1
+shadow5
+  rotate: false
+  xy: 2064, 2961
+  size: 1030, 554
+  orig: 1032, 556
+  offset: 1, 1
+  index: -1
+up4
+  rotate: false
+  xy: 3096, 2874
+  size: 1040, 641
+  orig: 1042, 643
+  offset: 1, 1
+  index: -1
+
+box2.png
+size: 3365,3684
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx2
+  rotate: false
+  xy: 2, 2
+  size: 3361, 3680
+  orig: 3361, 3680
+  offset: 0, 0
+  index: -1

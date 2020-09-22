@@ -1,0 +1,76 @@
+
+box_ani.png
+size: 1700,1594
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box_body
+  rotate: false
+  xy: 611, 630
+  size: 567, 440
+  orig: 569, 442
+  offset: 1, 1
+  index: -1
+box_head
+  rotate: true
+  xy: 611, 2
+  size: 626, 439
+  orig: 628, 441
+  offset: 1, 1
+  index: -1
+light_0000_light_04
+  rotate: false
+  xy: 1215, 1005
+  size: 449, 587
+  orig: 487, 626
+  offset: 20, 24
+  index: -1
+light_0001_light_03
+  rotate: false
+  xy: 1361, 25
+  size: 302, 681
+  orig: 328, 707
+  offset: 14, 14
+  index: -1
+light_0002_light_02
+  rotate: false
+  xy: 2, 382
+  size: 546, 601
+  orig: 573, 637
+  offset: 12, 15
+  index: -1
+light_0003_light_01
+  rotate: false
+  xy: 611, 1072
+  size: 602, 520
+  orig: 634, 552
+  offset: 18, 16
+  index: -1
+light_0004_light_main_01
+  rotate: false
+  xy: 1180, 708
+  size: 518, 295
+  orig: 545, 307
+  offset: 13, 0
+  index: -1
+light_0005_light_main_01
+  rotate: true
+  xy: 1052, 83
+  size: 545, 307
+  orig: 545, 307
+  offset: 0, 0
+  index: -1
+light_main_03
+  rotate: false
+  xy: 2, 985
+  size: 607, 607
+  orig: 1080, 1318
+  offset: 212, 390
+  index: -1
+light_main_street
+  rotate: true
+  xy: 2, 23
+  size: 357, 607
+  orig: 388, 673
+  offset: 15, 36
+  index: -1

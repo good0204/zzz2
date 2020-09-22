@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "333416829995",
+    "firebase_url": "https://bullet-master-3d-d852e.firebaseio.com",
+    "project_id": "bullet-master-3d-d852e",
+    "storage_bucket": "bullet-master-3d-d852e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333416829995:android:9e2cde39cc207ca86c866e",
+        "android_client_info": {
+          "package_name": "kr.co.alohacorp.BulletMaster3D"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333416829995-61k5tvg4hb6q1vnej9g7rfd9e7ce770c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqjpQjSw5MMtA0WC2SivvNgeprIxXIQsU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333416829995-61k5tvg4hb6q1vnej9g7rfd9e7ce770c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
